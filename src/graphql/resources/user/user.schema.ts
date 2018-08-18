@@ -5,7 +5,7 @@ const userTypes = `
     name: String!
     email: String!
     photo: String
-    createAt: String!
+    createdAt: String!
     updatedAt: String!
   }
 
