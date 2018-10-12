@@ -13,7 +13,7 @@ const userTypes = `
   input UserCreateInput {
     name: String!
     email: String!
-    passowrd: String!
+    password: String!
   }
 
   input UserUpdateInput {

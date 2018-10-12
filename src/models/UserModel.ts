@@ -43,7 +43,7 @@ export default (sequelize: Sequelize.Sequelize, DataTypes: Sequelize.DataTypes):
       type: DataTypes.STRING(128),
       allowNull: false,
       validate: {
-        noEmpty: true
+        notEmpty: true
       }
     },
     photo: {
