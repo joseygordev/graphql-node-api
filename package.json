@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development && nodemon --delay 5 dist/index",
+    "dev": "set NODE_ENV=development JWT_SECRET=iron_man && nodemon --delay 5 dist/index",
     "gulp": " set NODE_ENV=development & gulp"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "@types/express": "4.0.37",
     "@types/express-graphql": "0.0.34",
     "@types/graphql": "0.11.5",
+    "@types/jsonwebtoken": "7.2.3",
     "@types/lodash": "4.14.78",
     "@types/node": "8.0.34",
     "@types/sequelize": "4.0.76",
@@ -30,6 +31,7 @@
     "express-graphql": "0.6.11",
     "graphql": "0.11.7",
     "graphql-tools": "2.3.0",
+    "jsonwebtoken": "8.1.0",
     "lodash": "4.17.4",
     "pg": "7.4.3",
     "pg-hstore": "2.3.2",

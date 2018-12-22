@@ -42,7 +42,6 @@ export const userResolvers = {
 
   Mutation: {
     createUser: (parent, {input}, {db}: {db: DbConnection}, info: GraphQLResolveInfo) => {
-      console.log('input', input)
       return db.sequelize.transaction((t: Transaction) => {
         return db.User.create(input, {transaction: t})
       })
